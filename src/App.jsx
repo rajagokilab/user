@@ -1,11 +1,11 @@
 import "./App.css";
-import NameForm from "./components/NameForm";
+import TodoList from "./components/todolist";
 
 function App() {
   return (
     <div className="App">
-      <h1>Name Form App</h1>
-      <NameForm />
+      <h1>Todo List App</h1>
+      <TodoList />
     </div>
   );
 }
