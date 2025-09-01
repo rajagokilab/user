@@ -1,11 +1,11 @@
 import "./App.css";
-import FruitList from "./components/FruitList";
+import UserTable from "./components/usertable";
 
 function App() {
   return (
     <div className="App">
-      <h1>Fruit List App</h1>
-      <FruitList />
+      <h1>User Table App</h1>
+      <UserTable />
     </div>
   );
 }
