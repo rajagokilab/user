@@ -1,11 +1,11 @@
 import "./App.css";
-import ClickCounter from "./components/ClickCounter";
+import NameForm from "./components/NameForm";
 
 function App() {
   return (
     <div className="App">
-      <h1>Click Counter App</h1>
-      <ClickCounter />
+      <h1>Name Form App</h1>
+      <NameForm />
     </div>
   );
 }
