@@ -1,11 +1,11 @@
 import "./App.css";
-import NameDisplay from "./components/NameDisplay";
+import ClickCounter from "./components/ClickCounter";
 
 function App() {
   return (
     <div className="App">
-      <h1>Name Display App</h1>
-      <NameDisplay />
+      <h1>Click Counter App</h1>
+      <ClickCounter />
     </div>
   );
 }
