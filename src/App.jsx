@@ -1,11 +1,10 @@
-import "./App.css";
-import UserTable from "./components/usertable";
+import React from "react";
+import Counter from "./components/Counter.jsx";
 
 function App() {
   return (
-    <div className="App">
-      <h1>User Table App</h1>
-      <UserTable />
+    <div>
+      <Counter />
     </div>
   );
 }
