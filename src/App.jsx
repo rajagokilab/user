@@ -1,10 +1,10 @@
 import React from "react";
-import Counter from "./components/Counter.jsx";
+import UserList from "./components/UserList.jsx";
 
 function App() {
   return (
     <div>
-      <Counter />
+      <UserList />
     </div>
   );
 }
