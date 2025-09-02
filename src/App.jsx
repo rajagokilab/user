@@ -1,10 +1,10 @@
 import React from "react";
-import UserList from "./components/UserList.jsx";
+import AutoCounter from "./components/AutoCounter.jsx";
 
 function App() {
   return (
     <div>
-      <UserList />
+      <AutoCounter />
     </div>
   );
 }
